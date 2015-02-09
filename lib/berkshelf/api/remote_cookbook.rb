@@ -6,6 +6,7 @@ module Berkshelf::API
     attr_accessor :location_path
     attr_accessor :priority
     attr_accessor :info
+    attr_accessor :external_id
 
     def initialize(name, version, location_type, location_path, priority, info = {})
       @name          = name
